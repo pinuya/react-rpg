@@ -32,6 +32,10 @@ export const useCharacter = () => {
 
     return{
         x: pos.x,
-        y: pos.y
+        y: pos.y,
+        moveLeft,
+        moveRight,
+        moveDown,
+        moveUp
     };
 }
