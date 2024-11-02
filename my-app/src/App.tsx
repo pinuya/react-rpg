@@ -14,15 +14,19 @@ const App = () => {
     switch (e.code) {
       case "KeyA":
       case "ArrowLeft":
+        char.moveLeft();
         break;
       case "KeyW":
       case "ArrowUp":
+        char.moveUp();
         break;
       case "KeyD":
       case "ArrowRight":
+        char.moveRight();
         break;
       case "KeyS":
       case "ArrowDown":
+        char.moveDown();
         break;
     }
   };
