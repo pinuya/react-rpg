@@ -22,8 +22,6 @@ export const Character = ({ x, y, side }: Props) => {
       left={x * size}
       top={y * size}
       sidePos={sides[side] ?? 0}
-    >
-      abc
-    </C.Container>
+    ></C.Container>
   );
 };
